@@ -1,0 +1,76 @@
+.products {
+    position: relative;
+    width: 100vw;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Ensure no scrollbars */
+  }
+  
+  .background-image {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  
+  .inner-layer {
+position: relative;
+width: 1247px;
+height: 1033px;
+left: 250px;
+top: 80px;
+z-index: 2;
+}
+.title{
+    width: 88px; 
+    height:25px;
+    background:linear-gradient(260.95deg, rgba(255, 255, 255, 0) 4.29%, #EBF4FF 95.46%, #C9E2FF 95.46%); 
+     flex: none; order: 0;
+      flex-grow: 0;
+      color: blue;
+      font-size: 1rem;
+      font-weight: 500;
+      justify-content: center;
+      align-items: center; 
+      text-align: center; 
+}
+.tit-layer{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+position: relative;
+width: 848px;
+height: 300px;
+left: 0px;
+top: 0px;
+
+}
+
+  
+.in-lay {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+    gap: 10px; 
+    position: relative;
+    max-width: 1000px;
+    z-index: 10;
+  }
+  
+  .pro {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    border: 2px solid rgba(147, 139, 139, 0.358);
+    flex: 1 1 220px; 
+  }
+  
+  .last-item {
+    margin-top: 20px; 
+  }
+  
+  
+  

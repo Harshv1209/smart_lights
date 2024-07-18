@@ -1,0 +1,57 @@
+.footer-container {
+    background-image: url('https://articles-images.sftcdn.net/wp-content/uploads/sites/3/2023/04/tierra-luna-sistema-solar.jpg'); /* Update the path as needed */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh; 
+    box-sizing: border-box; 
+    margin-top: 0; 
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  .footer-links a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .underline-span {
+    font-size: 1rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: 140px;
+    left: 190px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-bottom {
+    position: absolute;
+    bottom: 100px;
+    left: 180px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-bottom a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-bottom span {
+    margin: 0 10px;
+  }
+  
